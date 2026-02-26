@@ -4,7 +4,7 @@ body {
     background-color: #0b2c4d;
 }
 
-.header {
+.topbar {
     background-color: #002147;
     color: white;
     text-align: center;
@@ -12,60 +12,54 @@ body {
     font-weight: bold;
 }
 
-.container {
+.main-box {
     background: white;
-    width: 350px;
-    margin: 60px auto;
-    padding: 20px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-input {
     width: 90%;
-    padding: 10px;
-    margin: 8px 0;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #002147;
-    color: white;
-    border: none;
-    cursor: pointer;
+.portal-title {
+    text-align: center;
+    color: #333;
 }
 
-button:hover {
-    background-color: #004080;
+.overall {
+    text-align: center;
+    color: gray;
 }
 
-#error {
-    color: red;
-    margin-top: 15px;
-}
-
-#result {
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
+.result-table th {
+    background-color: #e6e6e6;
+    padding: 10px;
 }
 
-td, th {
+.result-table td {
     border: 1px solid #ccc;
     padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #002147;
-    color: white;
 }
 
 .sgpa {
     font-weight: bold;
     color: green;
+}
+
+.note {
+    color: red;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
