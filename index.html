@@ -1,26 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Result Portal</title>
+    <title>RESULT @ ePortal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="header">
-    STUDENT RESULT PORTAL
+<div class="topbar">
+    JAMMU AND KASHMIR BOARD OF TECHNICAL EDUCATION
 </div>
 
-<div class="container">
-    <h2>Check Your Result</h2>
+<div class="main-box">
 
-    <input type="text" id="roll" placeholder="Enter Roll Number" required>
-    <input type="text" id="reg" placeholder="Enter Registration Number" required>
-    <button onclick="checkResult()">View Result</button>
+    <h2 class="portal-title">RESULT @ ePortal-JKBOTE</h2>
+    <h3 class="overall">OVERALL RESULT</h3>
 
-    <div id="error"></div>
-    <div id="result"></div>
+    <table class="result-table">
+        <tr>
+            <th colspan="4">STUDENT DETAILS</th>
+        </tr>
+
+        <tr>
+            <td><b>Name</b></td>
+            <td>Aadil Shabir Najar</td>
+            <td><b>Registration Number</b></td>
+            <td>11-04-R24-1316</td>
+        </tr>
+
+        <tr>
+            <td><b>Institute</b></td>
+            <td>K.G Polytechnic Srinagar</td>
+            <td><b>Programme</b></td>
+            <td>3 Year Diploma in Electronics & Communication Engineering</td>
+        </tr>
+
+        <tr>
+            <td><b>Person With Disability</b></td>
+            <td>NO</td>
+            <td><b>Admission</b></td>
+            <td>REGULAR</td>
+        </tr>
+
+        <tr>
+            <td><b>Result</b></td>
+            <td>PASS</td>
+            <td><b>SGPA</b></td>
+            <td class="sgpa">9.56</td>
+        </tr>
+    </table>
+
+    <p class="note">
+        This is for information purpose only and not to be treated as an equivalent of Marks Certificate.
+        Marks Certificate will be issued separately to only passing students.
+    </p>
+
 </div>
 
-<script src="script.js"></script>
+<div class="footer">
+    © 2026 Student Practice Portal
+</div>
+
 </body>
 </html>
