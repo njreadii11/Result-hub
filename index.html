@@ -10,30 +10,53 @@
     JAMMU AND KASHMIR BOARD OF TECHNICAL EDUCATION
 </div>
 
-<div class="login-box">
+<div class="result-section">
+
     <h2>RESULT @ ePortal-JKBOTE</h2>
+    <h4>OVERALL RESULT</h4>
 
-    <input type="text" id="roll" placeholder="Enter Roll Number">
-    <input type="text" id="reg" placeholder="Enter Registration Number">
-    <button onclick="goToResult()">View Result</button>
+    <table>
+        <tr>
+            <th colspan="4">STUDENT DETAILS</th>
+        </tr>
 
-    <p id="error"></p>
+        <tr>
+            <td>Name</td>
+            <td>Aadil Shabir Najar</td>
+            <td>Registration Number</td>
+            <td>11-04-R24-1316</td>
+        </tr>
+
+        <tr>
+            <td>Institute</td>
+            <td>K.G Polytechnic Srinagar</td>
+            <td>Programme</td>
+            <td>Diploma in Electronics & Communication Engineering</td>
+        </tr>
+
+        <tr>
+            <td>Person With Disability</td>
+            <td>NO</td>
+            <td>Admission</td>
+            <td>REGULAR</td>
+        </tr>
+
+        <tr>
+            <td>Result</td>
+            <td>PASS</td>
+            <td>SGPA</td>
+            <td class="sgpa">9.56</td>
+        </tr>
+    </table>
+
+    <p class="note">
+        This is for information purpose only and not to be treated as an equivalent of Marks Certificate.
+        Marks Certificate will be issued separately to only passing students.
+    </p>
+
 </div>
 
-<script>
-function goToResult() {
-
-    var roll = document.getElementById("roll").value.trim();
-    var reg = document.getElementById("reg").value.trim();
-
-    if(roll === "1104-25N3-48232" && reg === "11-04-R24-1316"){
-        window.location.href = "result.html";
-    } else {
-        document.getElementById("error").innerHTML =
-        "Invalid Roll Number or Registration Number";
-    }
-}
-</script>
+<div class="bottom-blue"></div>
 
 </body>
 </html>
